@@ -1,0 +1,28 @@
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10 !important;
+    .container {
+        .row {
+            height: 3rem;
+        }
+        nav .navbar-nav {
+            a {
+                color: #ffffff;
+                letter-spacing: 2px;
+                position: relative;
+                &:after {
+                    @include after-bottom-left(0, 2px, -1px, 0);
+                    @include gradient-primary(right);
+                    box-shadow: 0 0 20px 0 #fbbd61;
+                    transition: all 0.3s ease;
+                }
+                &:hover::after {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

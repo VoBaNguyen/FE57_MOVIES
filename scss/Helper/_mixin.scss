@@ -1,0 +1,24 @@
+// Mixin
+@mixin gradient-primary($to) {
+    background-image: linear-gradient(to $to, #fbbd61, #ec7532);
+}
+
+@mixin after-top-left($width, $height, $value1, $value2) {
+    content: "";
+    display: block;
+    width: $width;
+    height: $height;
+    position: absolute;
+    top: $value1;
+    left: $value2;
+}
+
+@mixin after-bottom-left($width, $height, $value1, $value2) {
+    content: "";
+    display: block;
+    width: $width;
+    height: $height;
+    position: absolute;
+    bottom: $value1;
+    left: $value2;
+}

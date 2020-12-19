@@ -1,0 +1,53 @@
+.slider {
+    .carousel-inner {
+        .carousel-item {
+            position: relative;
+            &:after {
+                @include after-top-left(100%, 100%, 0, 0);
+                background: linear-gradient(to top, #000000, transparent);
+            }
+            .carousel-caption {
+                position: absolute;
+                top: 50% !important;
+                left: 50% !important;
+                transform: translate(-50%, -50%);
+                & > span {
+                    color: $primary;
+                }
+                .trailer {
+                    position: relative;
+                    & > span {
+                        display: block;
+                        width: 3rem;
+                        height: 3rem;
+                        border-width: 2px !important;
+                    }
+                    button {
+                        padding: 0.6rem 2.5rem;
+                        letter-spacing: 2px;
+                        border: none;
+                        border-radius: 999rem;
+                        @include gradient-primary(right);
+                        position: relative;
+                        overflow: hidden;
+                        box-shadow: none !important;
+
+                        &:after {
+                            @include after-top-left(0, 5rem, 0, 0);
+                            background-color: $strong-primary;
+                            transform: skewX(30deg);
+                            transition: all 0.4s ease;
+                        }
+                        &:hover::after {
+                            width: 21rem;
+                        }
+                        span {
+                            position: relative;
+                            z-index: 1;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
