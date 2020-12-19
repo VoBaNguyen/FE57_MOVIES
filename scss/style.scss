@@ -3,9 +3,13 @@
 // Variable
 @import "./Helper/variable";
 // Mixin
+@import "./Helper/extend";
 @import "./Helper/mixin";
 // Layout
 @import "./Layout/header";
 @import "./Layout/slider";
 @import "./Layout/new";
 @import "./Layout/schedule";
+@import "./Layout/coming";
+@import "./Layout/contact";
+@import "./Layout/footer";

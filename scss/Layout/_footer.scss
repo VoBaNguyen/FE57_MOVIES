@@ -1,0 +1,36 @@
+.footer {
+    background-color: #000;
+    color: #fff;
+    .row {
+        padding-top: 3rem;
+        .item {
+            display: flex;
+            flex-direction: column;
+            h2 {
+                font-size: 1rem;
+                color: $strong-primary;
+                padding-bottom: 1rem;
+            }
+            a {
+                font-weight: 400;
+                color: #fff;
+                i {
+                    color: $muted;
+                    padding-right: 0.5rem;
+                }
+                transition: all 0.4s ease;
+                &:hover {
+                    color: $strong-primary;
+                }
+            }
+        }
+    }
+    .copy-right {
+        margin-top: 50px;
+        padding: 20px 0;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        a {
+            color: #fff;
+        }
+    }
+}

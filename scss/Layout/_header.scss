@@ -4,13 +4,14 @@
     left: 0;
     width: 100%;
     z-index: 10 !important;
+    color: #fff;
     .container {
         .row {
             height: 3rem;
         }
         nav .navbar-nav {
             a {
-                color: #ffffff;
+                color: #fff;
                 letter-spacing: 2px;
                 position: relative;
                 &:after {

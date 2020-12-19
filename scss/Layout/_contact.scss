@@ -1,0 +1,18 @@
+.contact {
+    padding: 3rem 0;
+    color: #4a4a4a;
+    .phone {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        p {
+            font-size: 1.4375rem;
+            font-weight: 300;
+        }
+        h1 {
+            color: $strong-primary;
+            font-size: 2.875rem;
+        }
+    }
+}
