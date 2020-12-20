@@ -8,3 +8,23 @@
 .bg-strong-muted {
     background-color: #4a4a4a !important;
 }
+
+.hover-to-strong-primary {
+    color: $strong-primary;
+}
+
+.hover-to-primary {
+    color: $primary;
+}
+
+.hover-to-black {
+    color: $black;
+}
+
+.flex-row {
+    display: flex;
+}
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}

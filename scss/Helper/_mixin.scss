@@ -22,3 +22,32 @@
     bottom: $value1;
     left: $value2;
 }
+
+@mixin transition-ease($time) {
+    transition: all $time ease;
+}
+
+@mixin transition-in-out($time) {
+    transition: all $time ease-in-out;
+}
+
+@mixin visible-properties($opac, $visib) {
+    opacity: $opac;
+    visibility: $visib;
+}
+
+@mixin background-img($url) {
+    background: {
+        image: url($url);
+        size: cover;
+        position: center;
+        repeat: none;
+    }
+}
+
+@mixin d-flex($direct, $justify, $align) {
+    display: flex;
+    flex-direction: $direct;
+    justify-content: $justify;
+    align-items: $align;
+}

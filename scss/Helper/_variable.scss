@@ -2,6 +2,63 @@
 $primary: #fbbd61;
 $strong-primary: #ec7532;
 $muted: #717171;
+
+$black: #4a4a4a;
+$gray: #717171;
+$white: #fff;
+
 // Font size
 $font-span: 0.875rem;
 $font-p: 1.125rem;
+
+$h1: 2.875rem;
+$h2: 2.125rem;
+$p1: 1.5rem;
+$p2: 1.125rem;
+$p3: 1rem;
+$p4: 0.75rem;
+
+// *Note:
+// - Font size:
+//     Header:
+//         + Contact: $p3
+//         + Navbar: $p3
+//     Carousel:
+//         + Caption $p2
+//         + Btn play trialer: $p4
+//     NEW IN:
+//         + Header NEW IN: $p2
+//         + Poster name: $p2
+
+//     Schedule:
+//         + Today: $p2
+//         + Action, adventure: $p3
+//         + It's Over: $p1
+//         + Description: $p3
+//         + FULL SYONOPSYS:
+//         + Viewing times: $p4
+//         + badge: $p3
+//         + 105 MINS: $p4
+
+//     Comming Soon:
+//         + COMMING SOON: $p2
+//         + Action, adventure: $p3
+//         + Movie name: $h2
+//         + Rating - Date: $p3
+//         + Description: $p3
+//         + More info: $p4
+//     Carousel bottom:
+//         + Movie name: $p3
+//         + Release date: $p3
+
+//     Footer:
+//         + Need help: $p1
+//         + Phone number: $h1
+//         + Get in touch: $p3
+//         + Detail: $p4
+
+// - Hover:
+//     + #ec7532 -> #fbbd61
+//     + transition: all 300ms ease-in-out;
+
+// Color

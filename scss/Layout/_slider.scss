@@ -27,16 +27,16 @@
                         letter-spacing: 2px;
                         border: none;
                         border-radius: 999rem;
-                        @include gradient-primary(right);
                         position: relative;
                         overflow: hidden;
                         box-shadow: none !important;
+                        @include gradient-primary(right);
 
                         &:after {
                             @include after-top-left(0, 5rem, 0, 0);
                             background-color: $strong-primary;
                             transform: skewX(30deg);
-                            transition: all 0.4s ease;
+                            @include transition-ease(0.4s);
                         }
                         &:hover::after {
                             width: 21rem;

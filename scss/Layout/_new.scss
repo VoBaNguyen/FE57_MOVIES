@@ -1,6 +1,6 @@
 .new .container {
     & > h1 {
-        font-size: $font-p;
+        font-size: $p2;
         color: $strong-primary;
         position: relative;
         &::after {
@@ -8,10 +8,12 @@
             @include gradient-primary(right);
         }
     }
-
     .owl-carousel {
         h1 {
-            font-size: $font-p;
+            font: {
+                size: $p2;
+                weight: 400;
+            }
         }
         .movie-poster {
             position: relative;
@@ -33,24 +35,22 @@
                     &:hover {
                         transform: scale(0.9);
                     }
-                    transition: all 0.4s ease;
+                    @include transition-ease(0.4s);
                 }
                 transform: scale(0.9);
-                opacity: 0;
-                visibility: hidden;
-                transition: all 0.4s ease;
+                @include visible-properties(0, hidden);
+                @include transition-ease(0.4s);
             }
             &:hover .info {
                 transform: scale(1);
-                opacity: 1;
-                visibility: visible;
+                @include visible-properties(1, visible);
             }
             &::before {
                 @include after-top-left(0, 100%, 0, -150%);
                 @include gradient-primary(bottom);
-                opacity: 0.9;
+                @include visible-properties(0.9, visible);
+                @include transition-ease(0.4s);
                 transform: skewX(30deg);
-                transition: all 0.4s ease;
             }
             &:hover::before {
                 width: 300%;

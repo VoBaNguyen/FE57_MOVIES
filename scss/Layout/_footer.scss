@@ -9,7 +9,7 @@
             h2 {
                 font-size: 1rem;
                 color: $strong-primary;
-                padding-bottom: 1rem;
+                padding-bottom: 0.5rem;
             }
             a {
                 font-weight: 400;
@@ -32,5 +32,23 @@
         a {
             color: #fff;
         }
+    }
+    /* RESPONSIVE */
+
+    @media screen and (max-width: 1200px) {
+    }
+
+    @media screen and (max-width: 992px) {
+        .item {
+            padding-bottom: 0.25rem;
+            margin-bottom: 1rem;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+    }
+
+    @media screen and (max-width: 576px) {
     }
 }
