@@ -2,6 +2,22 @@
     .carousel-inner {
         .carousel-item {
             position: relative;
+
+            .poster-1 {
+                @include background-img("../../img/hero-1.jpg");
+                height: 100%;
+                min-height: 600px;
+            }
+            .poster-2 {
+                @include background-img("../../img/hero-2.jpg");
+                height: 100%;
+                min-height: 600px;
+            }
+            .poster-3 {
+                @include background-img("../../img/hero-3.jpg");
+                height: 100%;
+                min-height: 600px;
+            }
             &:after {
                 @include after-top-left(100%, 100%, 0, 0);
                 background: linear-gradient(to top, #000000, transparent);
@@ -49,5 +65,18 @@
                 }
             }
         }
+    }
+    /* RESPONSIVE */
+
+    @media screen and (max-width: 1200px) {
+    }
+
+    @media screen and (max-width: 992px) {
+    }
+
+    @media screen and (max-width: 768px) {
+    }
+
+    @media screen and (max-width: 576px) {
     }
 }

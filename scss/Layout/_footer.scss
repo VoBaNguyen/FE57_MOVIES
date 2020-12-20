@@ -17,10 +17,14 @@
                 i {
                     color: $muted;
                     padding-right: 0.5rem;
+                    @include transition-ease(0.4s);
                 }
-                transition: all 0.4s ease;
+                @include transition-ease(0.4s);
                 &:hover {
                     color: $strong-primary;
+                    i {
+                        color: $strong-primary;
+                    }
                 }
             }
         }
@@ -31,6 +35,10 @@
         border-top: 1px solid rgba(255, 255, 255, 0.1);
         a {
             color: #fff;
+            @include transition-ease(0.4s);
+            &:hover {
+                color: $strong-primary;
+            }
         }
     }
     /* RESPONSIVE */

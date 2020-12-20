@@ -43,19 +43,39 @@
   left: 0;
   width: 100%;
   z-index: 10 !important;
+  /* RESPONSIVE */
 }
 
 .header .container .row {
   height: 3rem;
 }
 
-.header .container nav .navbar-nav a {
+.header .container nav > button {
+  border: none;
+}
+
+.header .container nav > button span {
+  color: #fbbd61 !important;
+}
+
+.header .container nav > button:focus {
+  border: none;
+  outline: none;
+}
+
+.header .container nav .navbar-collapse {
+  z-index: 1;
+  justify-content: flex-end;
+  transition: all 0.4s ease;
+}
+
+.header .container nav .navbar-collapse .navbar-nav a {
   color: #fff;
   letter-spacing: 2px;
   position: relative;
 }
 
-.header .container nav .navbar-nav a:after {
+.header .container nav .navbar-collapse .navbar-nav a:after {
   content: "";
   display: block;
   width: 0;
@@ -68,12 +88,53 @@
   transition: all 0.3s ease;
 }
 
-.header .container nav .navbar-nav a:hover::after {
+.header .container nav .navbar-collapse .navbar-nav a:hover::after {
   width: 100%;
+}
+
+@media screen and (max-width: 992px) {
+  .header nav .navbar-collapse {
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+  .header nav .navbar-collapse .navbar-nav {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.slider {
+  /* RESPONSIVE */
 }
 
 .slider .carousel-inner .carousel-item {
   position: relative;
+}
+
+.slider .carousel-inner .carousel-item .poster-1 {
+  background-image: url("../../img/hero-1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+  height: 100%;
+  min-height: 600px;
+}
+
+.slider .carousel-inner .carousel-item .poster-2 {
+  background-image: url("../../img/hero-2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+  height: 100%;
+  min-height: 600px;
+}
+
+.slider .carousel-inner .carousel-item .poster-3 {
+  background-image: url("../../img/hero-3.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+  height: 100%;
+  min-height: 600px;
 }
 
 .slider .carousel-inner .carousel-item:after {
@@ -424,7 +485,7 @@
 }
 
 .coming .container .coming-top .poster a {
-  padding: 5rem 11rem;
+  padding: 5rem 14rem;
   transition: all 0.4s ease;
 }
 
@@ -549,9 +610,14 @@
 .footer .row .item a i {
   color: #717171;
   padding-right: 0.5rem;
+  transition: all 0.4s ease;
 }
 
 .footer .row .item a:hover {
+  color: #ec7532;
+}
+
+.footer .row .item a:hover i {
   color: #ec7532;
 }
 
@@ -563,6 +629,11 @@
 
 .footer .copy-right a {
   color: #fff;
+  transition: all 0.4s ease;
+}
+
+.footer .copy-right a:hover {
+  color: #ec7532;
 }
 
 @media screen and (max-width: 992px) {
