@@ -2,21 +2,20 @@
     .carousel-inner {
         .carousel-item {
             position: relative;
-
             .poster-1 {
                 @include background-img("../../img/hero-1.jpg");
                 height: 100%;
-                min-height: 600px;
+                min-height: 55rem;
             }
             .poster-2 {
                 @include background-img("../../img/hero-2.jpg");
                 height: 100%;
-                min-height: 600px;
+                min-height: 55rem;
             }
             .poster-3 {
                 @include background-img("../../img/hero-3.jpg");
                 height: 100%;
-                min-height: 600px;
+                min-height: 55rem;
             }
             &:after {
                 @include after-top-left(100%, 100%, 0, 0);
@@ -27,11 +26,28 @@
                 top: 50% !important;
                 left: 50% !important;
                 transform: translate(-50%, -50%);
+                h1 {
+                    animation: fadeIn-135deg;
+                    animation-duration: 0.8s;
+                    animation-timing-function: ease;
+                }
+                p {
+                    animation-name: fadeIn-180deg;
+                    animation-duration: 0.8s;
+                    animation-timing-function: ease;
+                }
                 & > span {
                     color: $primary;
+                    display: block;
+                    animation: fadeIn-135deg;
+                    animation-duration: 0.8s;
+                    animation-timing-function: ease;
                 }
                 .trailer {
                     position: relative;
+                    animation-name: fadeIn-235deg;
+                    animation-duration: 0.8s;
+                    animation-timing-function: ease;
                     & > span {
                         display: block;
                         width: 3rem;
@@ -66,6 +82,44 @@
             }
         }
     }
+
+    @keyframes fadeIn-135deg {
+        0% {
+            opacity: 0;
+            visibility: hidden;
+            transform: translate(-100px, -100px);
+        }
+        100% {
+            opacity: 1;
+            visibility: visible;
+            transform: translate(0, 0);
+        }
+    }
+    @keyframes fadeIn-180deg {
+        0% {
+            opacity: 0;
+            visibility: hidden;
+            transform: translate(-100px, 0);
+        }
+        100% {
+            opacity: 1;
+            visibility: visible;
+            transform: translate(0, 0);
+        }
+    }
+    @keyframes fadeIn-235deg {
+        0% {
+            opacity: 0;
+            visibility: hidden;
+            transform: translate(-100px, 100px);
+        }
+        100% {
+            opacity: 1;
+            visibility: visible;
+            transform: translate(0, 0);
+        }
+    }
+
     /* RESPONSIVE */
 
     @media screen and (max-width: 1200px) {

@@ -116,7 +116,7 @@
   background-position: center;
   background-repeat: none;
   height: 100%;
-  min-height: 600px;
+  min-height: 55rem;
 }
 
 .slider .carousel-inner .carousel-item .poster-2 {
@@ -125,7 +125,7 @@
   background-position: center;
   background-repeat: none;
   height: 100%;
-  min-height: 600px;
+  min-height: 55rem;
 }
 
 .slider .carousel-inner .carousel-item .poster-3 {
@@ -134,7 +134,7 @@
   background-position: center;
   background-repeat: none;
   height: 100%;
-  min-height: 600px;
+  min-height: 55rem;
 }
 
 .slider .carousel-inner .carousel-item:after {
@@ -155,12 +155,31 @@
   transform: translate(-50%, -50%);
 }
 
+.slider .carousel-inner .carousel-item .carousel-caption h1 {
+  animation: fadeIn-135deg;
+  animation-duration: 0.8s;
+  animation-timing-function: ease;
+}
+
+.slider .carousel-inner .carousel-item .carousel-caption p {
+  animation-name: fadeIn-180deg;
+  animation-duration: 0.8s;
+  animation-timing-function: ease;
+}
+
 .slider .carousel-inner .carousel-item .carousel-caption > span {
   color: #fbbd61;
+  display: block;
+  animation: fadeIn-135deg;
+  animation-duration: 0.8s;
+  animation-timing-function: ease;
 }
 
 .slider .carousel-inner .carousel-item .carousel-caption .trailer {
   position: relative;
+  animation-name: fadeIn-235deg;
+  animation-duration: 0.8s;
+  animation-timing-function: ease;
 }
 
 .slider .carousel-inner .carousel-item .carousel-caption .trailer > span {
@@ -201,6 +220,45 @@
 .slider .carousel-inner .carousel-item .carousel-caption .trailer button span {
   position: relative;
   z-index: 1;
+}
+
+@keyframes fadeIn-135deg {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+    transform: translate(-100px, -100px);
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes fadeIn-180deg {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+    transform: translate(-100px, 0);
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes fadeIn-235deg {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+    transform: translate(-100px, 100px);
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+    transform: translate(0, 0);
+  }
 }
 
 .new .container > h1 {
