@@ -27,27 +27,19 @@
                 left: 50% !important;
                 transform: translate(-50%, -50%);
                 h1 {
-                    animation: fadeIn-135deg;
-                    animation-duration: 0.8s;
-                    animation-timing-function: ease;
+                    @include animation(fadeIn-135deg);
                 }
                 p {
-                    animation-name: fadeIn-180deg;
-                    animation-duration: 0.8s;
-                    animation-timing-function: ease;
+                    @include animation(fadeIn-180deg);
                 }
                 & > span {
                     color: $primary;
                     display: block;
-                    animation: fadeIn-135deg;
-                    animation-duration: 0.8s;
-                    animation-timing-function: ease;
+                    @include animation(fadeIn-135deg);
                 }
                 .trailer {
                     position: relative;
-                    animation-name: fadeIn-235deg;
-                    animation-duration: 0.8s;
-                    animation-timing-function: ease;
+                    @include animation(fadeIn-235deg);
                     & > span {
                         display: block;
                         width: 3rem;

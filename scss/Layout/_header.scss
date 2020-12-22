@@ -37,6 +37,11 @@
                         &:hover::after {
                             width: 100%;
                         }
+                        &.active {
+                            &::after {
+                                width: 100%;
+                            }
+                        }
                     }
                 }
             }
@@ -53,6 +58,12 @@
                 .navbar-nav {
                     justify-content: center;
                     align-items: center;
+                    border-bottom: none !important;
+                    a {
+                        display: block;
+                        width: 100%;
+                        text-align: center;
+                    }
                 }
             }
         }

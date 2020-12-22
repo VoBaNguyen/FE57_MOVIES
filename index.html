@@ -16,16 +16,20 @@
             integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
             crossorigin="anonymous"
         />
+        <!-- Slick -->
         <link
             rel="stylesheet"
-            href="./css/owlcarousel/owl.theme.default.min.css"
+            type="text/css"
+            href="./slick-1.8.1/slick/slick.css"
         />
-        <link rel="stylesheet" href="./css/owlcarousel/owl.carousel.min.css" />
         <link
             rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+            type="text/css"
+            href="./slick-1.8.1/slick/slick-theme.css"
         />
+        <!-- Style.css -->
         <link rel="stylesheet" href="./css/style.css" />
+        <!-- Google Font -->
         <link
             href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700"
             rel="stylesheet"
@@ -196,7 +200,7 @@
         <section class="new">
             <div class="container">
                 <h1 class="border-bottom py-3 my-5">NEW IN</h1>
-                <div class="owl-carousel owl-theme owl-4-items">
+                <div class="slick-carousel 4-items">
                     <div class="item">
                         <div class="d-flex flex-column justify-content-center">
                             <div class="movie-poster">
@@ -615,9 +619,10 @@
                     id="myTab"
                     role="tablist"
                 >
+                    <!-- MON -->
                     <li class="nav-item" role="presentation">
                         <a
-                            class="nav-link active"
+                            class="nav-link"
                             id="home-tab"
                             data-toggle="tab"
                             href="#MON"
@@ -625,6 +630,7 @@
                             >MON</a
                         >
                     </li>
+                    <!-- TUE -->
                     <li class="nav-item" role="presentation">
                         <a
                             class="nav-link"
@@ -635,26 +641,29 @@
                             >TUE</a
                         >
                     </li>
+                    <!-- WED -->
                     <li class="nav-item" role="presentation">
                         <a
                             class="nav-link"
                             id="home-tab"
                             data-toggle="tab"
-                            href="#WES"
+                            href="#WED"
                             role="tab"
-                            >WES</a
+                            >WED</a
                         >
                     </li>
+                    <!-- THUS -->
                     <li class="nav-item" role="presentation">
                         <a
-                            class="nav-link"
+                            class="nav-link active"
                             id="home-tab"
                             data-toggle="tab"
-                            href="#THUS"
+                            href="#THU"
                             role="tab"
-                            >THUS</a
+                            >TODAY</a
                         >
                     </li>
+                    <!-- FRI -->
                     <li class="nav-item" role="presentation">
                         <a
                             class="nav-link"
@@ -665,6 +674,7 @@
                             >FRI</a
                         >
                     </li>
+                    <!-- SAT -->
                     <li class="nav-item" role="presentation">
                         <a
                             class="nav-link"
@@ -675,6 +685,7 @@
                             >SAT</a
                         >
                     </li>
+                    <!-- SUN -->
                     <li class="nav-item" role="presentation">
                         <a
                             class="nav-link"
@@ -687,9 +698,823 @@
                     </li>
                 </ul>
                 <div class="tab-content" id="myTabContent">
+                    <!-- MON -->
+                    <div class="tab-pane fade show" id="MON" role="tabpanel">
+                        <div class="row py-4">
+                            <div class="col-md-3 col-lg-2">
+                                <div class="img-poster">
+                                    <img
+                                        src="./img/movie-6.jpg"
+                                        alt="movie 6"
+                                        class="d-block w-100"
+                                    />
+                                </div>
+                            </div>
+                            <div class="col-md-9 col-lg-10">
+                                <div class="info">
+                                    <span>ACTION, ADVENTURE, FANTASY</span>
+                                    <h1>It's Over</h1>
+                                    <p>
+                                        European mercenaries searching for black
+                                        powder become embroiled in the defense
+                                        of It's over of China against a horde of
+                                        monstrous creatures.
+                                    </p>
+                                    <a href="#">FULL SYNOPSYS ></a>
+                                    <div
+                                        class="time-detail d-flex justify-content-between my-3"
+                                    >
+                                        <div class="row w-100">
+                                            <div class="col-md-8">
+                                                <div class="time">
+                                                    <span
+                                                        ><i
+                                                            class="fa fa-clock"
+                                                        ></i>
+                                                        VIEWING TIMES</span
+                                                    >
+                                                    <span
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</span
+                                                    >
+                                                    <span
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</span
+                                                    >
+                                                    <spa
+                                                        n
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</spa
+                                                    >
+                                                    <spa
+                                                        n
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</spa
+                                                    >
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="duration">
+                                                    <span>105 MINS</span>
+                                                    <span
+                                                        class="rounded-circle bg-strong-muted text-white ml-2"
+                                                        >PG</span
+                                                    >
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row py-4 border-top">
+                            <div class="col-md-3 col-lg-2">
+                                <div class="img-poster">
+                                    <img
+                                        src="./img/movie-7.jpg"
+                                        alt="movie 7"
+                                        class="d-block w-100"
+                                    />
+                                </div>
+                            </div>
+                            <div class="col-md-9 col-lg-10">
+                                <div class="info">
+                                    <span>ACTION, ADVENTURE, FANTASY</span>
+                                    <h1>It's Over</h1>
+                                    <p>
+                                        European mercenaries searching for black
+                                        powder become embroiled in the defense
+                                        of It's over of China against a horde of
+                                        monstrous creatures.
+                                    </p>
+                                    <a href="#">FULL SYNOPSYS ></a>
+                                    <div
+                                        class="time-detail d-flex justify-content-between my-3"
+                                    >
+                                        <div class="row w-100">
+                                            <div class="col-md-8">
+                                                <div class="time">
+                                                    <span
+                                                        ><i
+                                                            class="fa fa-clock"
+                                                        ></i>
+                                                        VIEWING TIMES</span
+                                                    >
+                                                    <span
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</span
+                                                    >
+                                                    <span
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</span
+                                                    >
+                                                    <spa
+                                                        n
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</spa
+                                                    >
+                                                    <spa
+                                                        n
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</spa
+                                                    >
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="duration">
+                                                    <span>105 MINS</span>
+                                                    <span
+                                                        class="rounded-circle bg-strong-muted text-white ml-2"
+                                                        >PG</span
+                                                    >
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row py-4 border-top">
+                            <div class="col-md-3 col-lg-2">
+                                <div class="img-poster">
+                                    <img
+                                        src="./img/movie-8.jpg"
+                                        alt="movie 8"
+                                        class="d-block w-100"
+                                    />
+                                </div>
+                            </div>
+                            <div class="col-md-9 col-lg-10">
+                                <div class="info">
+                                    <span>ACTION, ADVENTURE, FANTASY</span>
+                                    <h1>It's Over</h1>
+                                    <p>
+                                        European mercenaries searching for black
+                                        powder become embroiled in the defense
+                                        of It's over of China against a horde of
+                                        monstrous creatures.
+                                    </p>
+                                    <a href="#">FULL SYNOPSYS ></a>
+                                    <div
+                                        class="time-detail d-flex justify-content-between my-3"
+                                    >
+                                        <div class="row w-100">
+                                            <div class="col-md-8">
+                                                <div class="time">
+                                                    <span
+                                                        ><i
+                                                            class="fa fa-clock"
+                                                        ></i>
+                                                        VIEWING TIMES</span
+                                                    >
+                                                    <span
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</span
+                                                    >
+                                                    <span
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</span
+                                                    >
+                                                    <spa
+                                                        n
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</spa
+                                                    >
+                                                    <spa
+                                                        n
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</spa
+                                                    >
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="duration">
+                                                    <span>105 MINS</span>
+                                                    <span
+                                                        class="rounded-circle bg-strong-muted text-white ml-2"
+                                                        >PG</span
+                                                    >
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row py-4 border-top">
+                            <div class="col-md-3 col-lg-2">
+                                <div class="img-poster">
+                                    <img
+                                        src="./img/movie-9.jpg"
+                                        alt="movie 9"
+                                        class="d-block w-100"
+                                    />
+                                </div>
+                            </div>
+                            <div class="col-md-9 col-lg-10">
+                                <div class="info">
+                                    <span>ACTION, ADVENTURE, FANTASY</span>
+                                    <h1>It's Over</h1>
+                                    <p>
+                                        European mercenaries searching for black
+                                        powder become embroiled in the defense
+                                        of It's over of China against a horde of
+                                        monstrous creatures.
+                                    </p>
+                                    <a href="#">FULL SYNOPSYS ></a>
+                                    <div
+                                        class="time-detail d-flex justify-content-between my-3"
+                                    >
+                                        <div class="row w-100">
+                                            <div class="col-md-8">
+                                                <div class="time">
+                                                    <span
+                                                        ><i
+                                                            class="fa fa-clock"
+                                                        ></i>
+                                                        VIEWING TIMES</span
+                                                    >
+                                                    <span
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</span
+                                                    >
+                                                    <span
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</span
+                                                    >
+                                                    <spa
+                                                        n
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</spa
+                                                    >
+                                                    <spa
+                                                        n
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</spa
+                                                    >
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="duration">
+                                                    <span>105 MINS</span>
+                                                    <span
+                                                        class="rounded-circle bg-strong-muted text-white ml-2"
+                                                        >PG</span
+                                                    >
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- TUE -->
+                    <div class="tab-pane fade show" id="TUE" role="tabpanel">
+                        <div class="row py-4">
+                            <div class="col-md-3 col-lg-2">
+                                <div class="img-poster">
+                                    <img
+                                        src="./img/movie-1.jpg"
+                                        alt="movie 1"
+                                        class="d-block w-100"
+                                    />
+                                </div>
+                            </div>
+                            <div class="col-md-9 col-lg-10">
+                                <div class="info">
+                                    <span>ACTION, ADVENTURE, FANTASY</span>
+                                    <h1>It's Over</h1>
+                                    <p>
+                                        European mercenaries searching for black
+                                        powder become embroiled in the defense
+                                        of It's over of China against a horde of
+                                        monstrous creatures.
+                                    </p>
+                                    <a href="#">FULL SYNOPSYS ></a>
+                                    <div
+                                        class="time-detail d-flex justify-content-between my-3"
+                                    >
+                                        <div class="row w-100">
+                                            <div class="col-md-8">
+                                                <div class="time">
+                                                    <span
+                                                        ><i
+                                                            class="fa fa-clock"
+                                                        ></i>
+                                                        VIEWING TIMES</span
+                                                    >
+                                                    <span
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</span
+                                                    >
+                                                    <span
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</span
+                                                    >
+                                                    <spa
+                                                        n
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</spa
+                                                    >
+                                                    <spa
+                                                        n
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</spa
+                                                    >
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="duration">
+                                                    <span>105 MINS</span>
+                                                    <span
+                                                        class="rounded-circle bg-strong-muted text-white ml-2"
+                                                        >PG</span
+                                                    >
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row py-4 border-top">
+                            <div class="col-md-3 col-lg-2">
+                                <div class="img-poster">
+                                    <img
+                                        src="./img/movie-2.jpg"
+                                        alt="movie 2"
+                                        class="d-block w-100"
+                                    />
+                                </div>
+                            </div>
+                            <div class="col-md-9 col-lg-10">
+                                <div class="info">
+                                    <span>ACTION, ADVENTURE, FANTASY</span>
+                                    <h1>It's Over</h1>
+                                    <p>
+                                        European mercenaries searching for black
+                                        powder become embroiled in the defense
+                                        of It's over of China against a horde of
+                                        monstrous creatures.
+                                    </p>
+                                    <a href="#">FULL SYNOPSYS ></a>
+                                    <div
+                                        class="time-detail d-flex justify-content-between my-3"
+                                    >
+                                        <div class="row w-100">
+                                            <div class="col-md-8">
+                                                <div class="time">
+                                                    <span
+                                                        ><i
+                                                            class="fa fa-clock"
+                                                        ></i>
+                                                        VIEWING TIMES</span
+                                                    >
+                                                    <span
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</span
+                                                    >
+                                                    <span
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</span
+                                                    >
+                                                    <spa
+                                                        n
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</spa
+                                                    >
+                                                    <spa
+                                                        n
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</spa
+                                                    >
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="duration">
+                                                    <span>105 MINS</span>
+                                                    <span
+                                                        class="rounded-circle bg-strong-muted text-white ml-2"
+                                                        >PG</span
+                                                    >
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row py-4 border-top">
+                            <div class="col-md-3 col-lg-2">
+                                <div class="img-poster">
+                                    <img
+                                        src="./img/movie-3.jpg"
+                                        alt="movie 3"
+                                        class="d-block w-100"
+                                    />
+                                </div>
+                            </div>
+                            <div class="col-md-9 col-lg-10">
+                                <div class="info">
+                                    <span>ACTION, ADVENTURE, FANTASY</span>
+                                    <h1>It's Over</h1>
+                                    <p>
+                                        European mercenaries searching for black
+                                        powder become embroiled in the defense
+                                        of It's over of China against a horde of
+                                        monstrous creatures.
+                                    </p>
+                                    <a href="#">FULL SYNOPSYS ></a>
+                                    <div
+                                        class="time-detail d-flex justify-content-between my-3"
+                                    >
+                                        <div class="row w-100">
+                                            <div class="col-md-8">
+                                                <div class="time">
+                                                    <span
+                                                        ><i
+                                                            class="fa fa-clock"
+                                                        ></i>
+                                                        VIEWING TIMES</span
+                                                    >
+                                                    <span
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</span
+                                                    >
+                                                    <span
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</span
+                                                    >
+                                                    <spa
+                                                        n
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</spa
+                                                    >
+                                                    <spa
+                                                        n
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</spa
+                                                    >
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="duration">
+                                                    <span>105 MINS</span>
+                                                    <span
+                                                        class="rounded-circle bg-strong-muted text-white ml-2"
+                                                        >PG</span
+                                                    >
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row py-4 border-top">
+                            <div class="col-md-3 col-lg-2">
+                                <div class="img-poster">
+                                    <img
+                                        src="./img/movie-4.jpg"
+                                        alt="movie 4"
+                                        class="d-block w-100"
+                                    />
+                                </div>
+                            </div>
+                            <div class="col-md-9 col-lg-10">
+                                <div class="info">
+                                    <span>ACTION, ADVENTURE, FANTASY</span>
+                                    <h1>It's Over</h1>
+                                    <p>
+                                        European mercenaries searching for black
+                                        powder become embroiled in the defense
+                                        of It's over of China against a horde of
+                                        monstrous creatures.
+                                    </p>
+                                    <a href="#">FULL SYNOPSYS ></a>
+                                    <div
+                                        class="time-detail d-flex justify-content-between my-3"
+                                    >
+                                        <div class="row w-100">
+                                            <div class="col-md-8">
+                                                <div class="time">
+                                                    <span
+                                                        ><i
+                                                            class="fa fa-clock"
+                                                        ></i>
+                                                        VIEWING TIMES</span
+                                                    >
+                                                    <span
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</span
+                                                    >
+                                                    <span
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</span
+                                                    >
+                                                    <spa
+                                                        n
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</spa
+                                                    >
+                                                    <spa
+                                                        n
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</spa
+                                                    >
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="duration">
+                                                    <span>105 MINS</span>
+                                                    <span
+                                                        class="rounded-circle bg-strong-muted text-white ml-2"
+                                                        >PG</span
+                                                    >
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- WED -->
+                    <div class="tab-pane fade show" id="WED" role="tabpanel">
+                        <div class="row py-4">
+                            <div class="col-md-3 col-lg-2">
+                                <div class="img-poster">
+                                    <img
+                                        src="./img/movie-11.jpg"
+                                        alt="movie 11"
+                                        class="d-block w-100"
+                                    />
+                                </div>
+                            </div>
+                            <div class="col-md-9 col-lg-10">
+                                <div class="info">
+                                    <span>ACTION, ADVENTURE, FANTASY</span>
+                                    <h1>It's Over</h1>
+                                    <p>
+                                        European mercenaries searching for black
+                                        powder become embroiled in the defense
+                                        of It's over of China against a horde of
+                                        monstrous creatures.
+                                    </p>
+                                    <a href="#">FULL SYNOPSYS ></a>
+                                    <div
+                                        class="time-detail d-flex justify-content-between my-3"
+                                    >
+                                        <div class="row w-100">
+                                            <div class="col-md-8">
+                                                <div class="time">
+                                                    <span
+                                                        ><i
+                                                            class="fa fa-clock"
+                                                        ></i>
+                                                        VIEWING TIMES</span
+                                                    >
+                                                    <span
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</span
+                                                    >
+                                                    <span
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</span
+                                                    >
+                                                    <spa
+                                                        n
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</spa
+                                                    >
+                                                    <spa
+                                                        n
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</spa
+                                                    >
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="duration">
+                                                    <span>105 MINS</span>
+                                                    <span
+                                                        class="rounded-circle bg-strong-muted text-white ml-2"
+                                                        >PG</span
+                                                    >
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row py-4 border-top">
+                            <div class="col-md-3 col-lg-2">
+                                <div class="img-poster">
+                                    <img
+                                        src="./img/movie-12.jpg"
+                                        alt="movie 12"
+                                        class="d-block w-100"
+                                    />
+                                </div>
+                            </div>
+                            <div class="col-md-9 col-lg-10">
+                                <div class="info">
+                                    <span>ACTION, ADVENTURE, FANTASY</span>
+                                    <h1>It's Over</h1>
+                                    <p>
+                                        European mercenaries searching for black
+                                        powder become embroiled in the defense
+                                        of It's over of China against a horde of
+                                        monstrous creatures.
+                                    </p>
+                                    <a href="#">FULL SYNOPSYS ></a>
+                                    <div
+                                        class="time-detail d-flex justify-content-between my-3"
+                                    >
+                                        <div class="row w-100">
+                                            <div class="col-md-8">
+                                                <div class="time">
+                                                    <span
+                                                        ><i
+                                                            class="fa fa-clock"
+                                                        ></i>
+                                                        VIEWING TIMES</span
+                                                    >
+                                                    <span
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</span
+                                                    >
+                                                    <span
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</span
+                                                    >
+                                                    <spa
+                                                        n
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</spa
+                                                    >
+                                                    <spa
+                                                        n
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</spa
+                                                    >
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="duration">
+                                                    <span>105 MINS</span>
+                                                    <span
+                                                        class="rounded-circle bg-strong-muted text-white ml-2"
+                                                        >PG</span
+                                                    >
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row py-4 border-top">
+                            <div class="col-md-3 col-lg-2">
+                                <div class="img-poster">
+                                    <img
+                                        src="./img/movie-13.jpg"
+                                        alt="movie 13"
+                                        class="d-block w-100"
+                                    />
+                                </div>
+                            </div>
+                            <div class="col-md-9 col-lg-10">
+                                <div class="info">
+                                    <span>ACTION, ADVENTURE, FANTASY</span>
+                                    <h1>It's Over</h1>
+                                    <p>
+                                        European mercenaries searching for black
+                                        powder become embroiled in the defense
+                                        of It's over of China against a horde of
+                                        monstrous creatures.
+                                    </p>
+                                    <a href="#">FULL SYNOPSYS ></a>
+                                    <div
+                                        class="time-detail d-flex justify-content-between my-3"
+                                    >
+                                        <div class="row w-100">
+                                            <div class="col-md-8">
+                                                <div class="time">
+                                                    <span
+                                                        ><i
+                                                            class="fa fa-clock"
+                                                        ></i>
+                                                        VIEWING TIMES</span
+                                                    >
+                                                    <span
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</span
+                                                    >
+                                                    <span
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</span
+                                                    >
+                                                    <spa
+                                                        n
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</spa
+                                                    >
+                                                    <spa
+                                                        n
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</spa
+                                                    >
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="duration">
+                                                    <span>105 MINS</span>
+                                                    <span
+                                                        class="rounded-circle bg-strong-muted text-white ml-2"
+                                                        >PG</span
+                                                    >
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row py-4 border-top">
+                            <div class="col-md-3 col-lg-2">
+                                <div class="img-poster">
+                                    <img
+                                        src="./img/movie-14.jpg"
+                                        alt="movie 14"
+                                        class="d-block w-100"
+                                    />
+                                </div>
+                            </div>
+                            <div class="col-md-9 col-lg-10">
+                                <div class="info">
+                                    <span>ACTION, ADVENTURE, FANTASY</span>
+                                    <h1>It's Over</h1>
+                                    <p>
+                                        European mercenaries searching for black
+                                        powder become embroiled in the defense
+                                        of It's over of China against a horde of
+                                        monstrous creatures.
+                                    </p>
+                                    <a href="#">FULL SYNOPSYS ></a>
+                                    <div
+                                        class="time-detail d-flex justify-content-between my-3"
+                                    >
+                                        <div class="row w-100">
+                                            <div class="col-md-8">
+                                                <div class="time">
+                                                    <span
+                                                        ><i
+                                                            class="fa fa-clock"
+                                                        ></i>
+                                                        VIEWING TIMES</span
+                                                    >
+                                                    <span
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</span
+                                                    >
+                                                    <span
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</span
+                                                    >
+                                                    <spa
+                                                        n
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</spa
+                                                    >
+                                                    <spa
+                                                        n
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</spa
+                                                    >
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="duration">
+                                                    <span>105 MINS</span>
+                                                    <span
+                                                        class="rounded-circle bg-strong-muted text-white ml-2"
+                                                        >PG</span
+                                                    >
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- THU -->
                     <div
                         class="tab-pane fade show active"
-                        id="MON"
+                        id="THU"
                         role="tabpanel"
                     >
                         <div class="row py-4">
@@ -826,6 +1651,953 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="row py-4 border-top">
+                            <div class="col-md-3 col-lg-2">
+                                <div class="img-poster">
+                                    <img
+                                        src="./img/movie-8.jpg"
+                                        alt="movie 8"
+                                        class="d-block w-100"
+                                    />
+                                </div>
+                            </div>
+                            <div class="col-md-9 col-lg-10">
+                                <div class="info">
+                                    <span>ACTION, ADVENTURE, FANTASY</span>
+                                    <h1>It's Over</h1>
+                                    <p>
+                                        European mercenaries searching for black
+                                        powder become embroiled in the defense
+                                        of It's over of China against a horde of
+                                        monstrous creatures.
+                                    </p>
+                                    <a href="#">FULL SYNOPSYS ></a>
+                                    <div
+                                        class="time-detail d-flex justify-content-between my-3"
+                                    >
+                                        <div class="row w-100">
+                                            <div class="col-md-8">
+                                                <div class="time">
+                                                    <span
+                                                        ><i
+                                                            class="fa fa-clock"
+                                                        ></i>
+                                                        VIEWING TIMES</span
+                                                    >
+                                                    <span
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</span
+                                                    >
+                                                    <span
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</span
+                                                    >
+                                                    <spa
+                                                        n
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</spa
+                                                    >
+                                                    <spa
+                                                        n
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</spa
+                                                    >
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="duration">
+                                                    <span>105 MINS</span>
+                                                    <span
+                                                        class="rounded-circle bg-strong-muted text-white ml-2"
+                                                        >PG</span
+                                                    >
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row py-4 border-top">
+                            <div class="col-md-3 col-lg-2">
+                                <div class="img-poster">
+                                    <img
+                                        src="./img/movie-9.jpg"
+                                        alt="movie 9"
+                                        class="d-block w-100"
+                                    />
+                                </div>
+                            </div>
+                            <div class="col-md-9 col-lg-10">
+                                <div class="info">
+                                    <span>ACTION, ADVENTURE, FANTASY</span>
+                                    <h1>It's Over</h1>
+                                    <p>
+                                        European mercenaries searching for black
+                                        powder become embroiled in the defense
+                                        of It's over of China against a horde of
+                                        monstrous creatures.
+                                    </p>
+                                    <a href="#">FULL SYNOPSYS ></a>
+                                    <div
+                                        class="time-detail d-flex justify-content-between my-3"
+                                    >
+                                        <div class="row w-100">
+                                            <div class="col-md-8">
+                                                <div class="time">
+                                                    <span
+                                                        ><i
+                                                            class="fa fa-clock"
+                                                        ></i>
+                                                        VIEWING TIMES</span
+                                                    >
+                                                    <span
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</span
+                                                    >
+                                                    <span
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</span
+                                                    >
+                                                    <spa
+                                                        n
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</spa
+                                                    >
+                                                    <spa
+                                                        n
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</spa
+                                                    >
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="duration">
+                                                    <span>105 MINS</span>
+                                                    <span
+                                                        class="rounded-circle bg-strong-muted text-white ml-2"
+                                                        >PG</span
+                                                    >
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- FRI -->
+                    <div class="tab-pane fade show" id="FRI" role="tabpanel">
+                        <div class="row py-4">
+                            <div class="col-md-3 col-lg-2">
+                                <div class="img-poster">
+                                    <img
+                                        src="./img/movie-5.jpg"
+                                        alt="movie 5"
+                                        class="d-block w-100"
+                                    />
+                                </div>
+                            </div>
+                            <div class="col-md-9 col-lg-10">
+                                <div class="info">
+                                    <span>ACTION, ADVENTURE, FANTASY</span>
+                                    <h1>It's Over</h1>
+                                    <p>
+                                        European mercenaries searching for black
+                                        powder become embroiled in the defense
+                                        of It's over of China against a horde of
+                                        monstrous creatures.
+                                    </p>
+                                    <a href="#">FULL SYNOPSYS ></a>
+                                    <div
+                                        class="time-detail d-flex justify-content-between my-3"
+                                    >
+                                        <div class="row w-100">
+                                            <div class="col-md-8">
+                                                <div class="time">
+                                                    <span
+                                                        ><i
+                                                            class="fa fa-clock"
+                                                        ></i>
+                                                        VIEWING TIMES</span
+                                                    >
+                                                    <span
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</span
+                                                    >
+                                                    <span
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</span
+                                                    >
+                                                    <spa
+                                                        n
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</spa
+                                                    >
+                                                    <spa
+                                                        n
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</spa
+                                                    >
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="duration">
+                                                    <span>105 MINS</span>
+                                                    <span
+                                                        class="rounded-circle bg-strong-muted text-white ml-2"
+                                                        >PG</span
+                                                    >
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row py-4 border-top">
+                            <div class="col-md-3 col-lg-2">
+                                <div class="img-poster">
+                                    <img
+                                        src="./img/movie-9.jpg"
+                                        alt="movie 9"
+                                        class="d-block w-100"
+                                    />
+                                </div>
+                            </div>
+                            <div class="col-md-9 col-lg-10">
+                                <div class="info">
+                                    <span>ACTION, ADVENTURE, FANTASY</span>
+                                    <h1>It's Over</h1>
+                                    <p>
+                                        European mercenaries searching for black
+                                        powder become embroiled in the defense
+                                        of It's over of China against a horde of
+                                        monstrous creatures.
+                                    </p>
+                                    <a href="#">FULL SYNOPSYS ></a>
+                                    <div
+                                        class="time-detail d-flex justify-content-between my-3"
+                                    >
+                                        <div class="row w-100">
+                                            <div class="col-md-8">
+                                                <div class="time">
+                                                    <span
+                                                        ><i
+                                                            class="fa fa-clock"
+                                                        ></i>
+                                                        VIEWING TIMES</span
+                                                    >
+                                                    <span
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</span
+                                                    >
+                                                    <span
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</span
+                                                    >
+                                                    <spa
+                                                        n
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</spa
+                                                    >
+                                                    <spa
+                                                        n
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</spa
+                                                    >
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="duration">
+                                                    <span>105 MINS</span>
+                                                    <span
+                                                        class="rounded-circle bg-strong-muted text-white ml-2"
+                                                        >PG</span
+                                                    >
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row py-4 border-top">
+                            <div class="col-md-3 col-lg-2">
+                                <div class="img-poster">
+                                    <img
+                                        src="./img/movie-3.jpg"
+                                        alt="movie 3"
+                                        class="d-block w-100"
+                                    />
+                                </div>
+                            </div>
+                            <div class="col-md-9 col-lg-10">
+                                <div class="info">
+                                    <span>ACTION, ADVENTURE, FANTASY</span>
+                                    <h1>It's Over</h1>
+                                    <p>
+                                        European mercenaries searching for black
+                                        powder become embroiled in the defense
+                                        of It's over of China against a horde of
+                                        monstrous creatures.
+                                    </p>
+                                    <a href="#">FULL SYNOPSYS ></a>
+                                    <div
+                                        class="time-detail d-flex justify-content-between my-3"
+                                    >
+                                        <div class="row w-100">
+                                            <div class="col-md-8">
+                                                <div class="time">
+                                                    <span
+                                                        ><i
+                                                            class="fa fa-clock"
+                                                        ></i>
+                                                        VIEWING TIMES</span
+                                                    >
+                                                    <span
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</span
+                                                    >
+                                                    <span
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</span
+                                                    >
+                                                    <spa
+                                                        n
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</spa
+                                                    >
+                                                    <spa
+                                                        n
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</spa
+                                                    >
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="duration">
+                                                    <span>105 MINS</span>
+                                                    <span
+                                                        class="rounded-circle bg-strong-muted text-white ml-2"
+                                                        >PG</span
+                                                    >
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row py-4 border-top">
+                            <div class="col-md-3 col-lg-2">
+                                <div class="img-poster">
+                                    <img
+                                        src="./img/movie-4.jpg"
+                                        alt="movie 4"
+                                        class="d-block w-100"
+                                    />
+                                </div>
+                            </div>
+                            <div class="col-md-9 col-lg-10">
+                                <div class="info">
+                                    <span>ACTION, ADVENTURE, FANTASY</span>
+                                    <h1>It's Over</h1>
+                                    <p>
+                                        European mercenaries searching for black
+                                        powder become embroiled in the defense
+                                        of It's over of China against a horde of
+                                        monstrous creatures.
+                                    </p>
+                                    <a href="#">FULL SYNOPSYS ></a>
+                                    <div
+                                        class="time-detail d-flex justify-content-between my-3"
+                                    >
+                                        <div class="row w-100">
+                                            <div class="col-md-8">
+                                                <div class="time">
+                                                    <span
+                                                        ><i
+                                                            class="fa fa-clock"
+                                                        ></i>
+                                                        VIEWING TIMES</span
+                                                    >
+                                                    <span
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</span
+                                                    >
+                                                    <span
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</span
+                                                    >
+                                                    <spa
+                                                        n
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</spa
+                                                    >
+                                                    <spa
+                                                        n
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</spa
+                                                    >
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="duration">
+                                                    <span>105 MINS</span>
+                                                    <span
+                                                        class="rounded-circle bg-strong-muted text-white ml-2"
+                                                        >PG</span
+                                                    >
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- SAT -->
+                    <div class="tab-pane fade show" id="SAT" role="tabpanel">
+                        <div class="row py-4">
+                            <div class="col-md-3 col-lg-2">
+                                <div class="img-poster">
+                                    <img
+                                        src="./img/movie-3.jpg"
+                                        alt="movie 3"
+                                        class="d-block w-100"
+                                    />
+                                </div>
+                            </div>
+                            <div class="col-md-9 col-lg-10">
+                                <div class="info">
+                                    <span>ACTION, ADVENTURE, FANTASY</span>
+                                    <h1>It's Over</h1>
+                                    <p>
+                                        European mercenaries searching for black
+                                        powder become embroiled in the defense
+                                        of It's over of China against a horde of
+                                        monstrous creatures.
+                                    </p>
+                                    <a href="#">FULL SYNOPSYS ></a>
+                                    <div
+                                        class="time-detail d-flex justify-content-between my-3"
+                                    >
+                                        <div class="row w-100">
+                                            <div class="col-md-8">
+                                                <div class="time">
+                                                    <span
+                                                        ><i
+                                                            class="fa fa-clock"
+                                                        ></i>
+                                                        VIEWING TIMES</span
+                                                    >
+                                                    <span
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</span
+                                                    >
+                                                    <span
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</span
+                                                    >
+                                                    <spa
+                                                        n
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</spa
+                                                    >
+                                                    <spa
+                                                        n
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</spa
+                                                    >
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="duration">
+                                                    <span>105 MINS</span>
+                                                    <span
+                                                        class="rounded-circle bg-strong-muted text-white ml-2"
+                                                        >PG</span
+                                                    >
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row py-4 border-top">
+                            <div class="col-md-3 col-lg-2">
+                                <div class="img-poster">
+                                    <img
+                                        src="./img/movie-9.jpg"
+                                        alt="movie 9"
+                                        class="d-block w-100"
+                                    />
+                                </div>
+                            </div>
+                            <div class="col-md-9 col-lg-10">
+                                <div class="info">
+                                    <span>ACTION, ADVENTURE, FANTASY</span>
+                                    <h1>It's Over</h1>
+                                    <p>
+                                        European mercenaries searching for black
+                                        powder become embroiled in the defense
+                                        of It's over of China against a horde of
+                                        monstrous creatures.
+                                    </p>
+                                    <a href="#">FULL SYNOPSYS ></a>
+                                    <div
+                                        class="time-detail d-flex justify-content-between my-3"
+                                    >
+                                        <div class="row w-100">
+                                            <div class="col-md-8">
+                                                <div class="time">
+                                                    <span
+                                                        ><i
+                                                            class="fa fa-clock"
+                                                        ></i>
+                                                        VIEWING TIMES</span
+                                                    >
+                                                    <span
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</span
+                                                    >
+                                                    <span
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</span
+                                                    >
+                                                    <spa
+                                                        n
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</spa
+                                                    >
+                                                    <spa
+                                                        n
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</spa
+                                                    >
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="duration">
+                                                    <span>105 MINS</span>
+                                                    <span
+                                                        class="rounded-circle bg-strong-muted text-white ml-2"
+                                                        >PG</span
+                                                    >
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row py-4 border-top">
+                            <div class="col-md-3 col-lg-2">
+                                <div class="img-poster">
+                                    <img
+                                        src="./img/movie-13.jpg"
+                                        alt="movie 13"
+                                        class="d-block w-100"
+                                    />
+                                </div>
+                            </div>
+                            <div class="col-md-9 col-lg-10">
+                                <div class="info">
+                                    <span>ACTION, ADVENTURE, FANTASY</span>
+                                    <h1>It's Over</h1>
+                                    <p>
+                                        European mercenaries searching for black
+                                        powder become embroiled in the defense
+                                        of It's over of China against a horde of
+                                        monstrous creatures.
+                                    </p>
+                                    <a href="#">FULL SYNOPSYS ></a>
+                                    <div
+                                        class="time-detail d-flex justify-content-between my-3"
+                                    >
+                                        <div class="row w-100">
+                                            <div class="col-md-8">
+                                                <div class="time">
+                                                    <span
+                                                        ><i
+                                                            class="fa fa-clock"
+                                                        ></i>
+                                                        VIEWING TIMES</span
+                                                    >
+                                                    <span
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</span
+                                                    >
+                                                    <span
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</span
+                                                    >
+                                                    <spa
+                                                        n
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</spa
+                                                    >
+                                                    <spa
+                                                        n
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</spa
+                                                    >
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="duration">
+                                                    <span>105 MINS</span>
+                                                    <span
+                                                        class="rounded-circle bg-strong-muted text-white ml-2"
+                                                        >PG</span
+                                                    >
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row py-4 border-top">
+                            <div class="col-md-3 col-lg-2">
+                                <div class="img-poster">
+                                    <img
+                                        src="./img/movie-14.jpg"
+                                        alt="movie 14"
+                                        class="d-block w-100"
+                                    />
+                                </div>
+                            </div>
+                            <div class="col-md-9 col-lg-10">
+                                <div class="info">
+                                    <span>ACTION, ADVENTURE, FANTASY</span>
+                                    <h1>It's Over</h1>
+                                    <p>
+                                        European mercenaries searching for black
+                                        powder become embroiled in the defense
+                                        of It's over of China against a horde of
+                                        monstrous creatures.
+                                    </p>
+                                    <a href="#">FULL SYNOPSYS ></a>
+                                    <div
+                                        class="time-detail d-flex justify-content-between my-3"
+                                    >
+                                        <div class="row w-100">
+                                            <div class="col-md-8">
+                                                <div class="time">
+                                                    <span
+                                                        ><i
+                                                            class="fa fa-clock"
+                                                        ></i>
+                                                        VIEWING TIMES</span
+                                                    >
+                                                    <span
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</span
+                                                    >
+                                                    <span
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</span
+                                                    >
+                                                    <spa
+                                                        n
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</spa
+                                                    >
+                                                    <spa
+                                                        n
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</spa
+                                                    >
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="duration">
+                                                    <span>105 MINS</span>
+                                                    <span
+                                                        class="rounded-circle bg-strong-muted text-white ml-2"
+                                                        >PG</span
+                                                    >
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- SUN -->
+                    <div class="tab-pane fade show" id="SUN" role="tabpanel">
+                        <div class="row py-4">
+                            <div class="col-md-3 col-lg-2">
+                                <div class="img-poster">
+                                    <img
+                                        src="./img/movie-3.jpg"
+                                        alt="movie 3"
+                                        class="d-block w-100"
+                                    />
+                                </div>
+                            </div>
+                            <div class="col-md-9 col-lg-10">
+                                <div class="info">
+                                    <span>ACTION, ADVENTURE, FANTASY</span>
+                                    <h1>It's Over</h1>
+                                    <p>
+                                        European mercenaries searching for black
+                                        powder become embroiled in the defense
+                                        of It's over of China against a horde of
+                                        monstrous creatures.
+                                    </p>
+                                    <a href="#">FULL SYNOPSYS ></a>
+                                    <div
+                                        class="time-detail d-flex justify-content-between my-3"
+                                    >
+                                        <div class="row w-100">
+                                            <div class="col-md-8">
+                                                <div class="time">
+                                                    <span
+                                                        ><i
+                                                            class="fa fa-clock"
+                                                        ></i>
+                                                        VIEWING TIMES</span
+                                                    >
+                                                    <span
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</span
+                                                    >
+                                                    <span
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</span
+                                                    >
+                                                    <spa
+                                                        n
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</spa
+                                                    >
+                                                    <spa
+                                                        n
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</spa
+                                                    >
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="duration">
+                                                    <span>105 MINS</span>
+                                                    <span
+                                                        class="rounded-circle bg-strong-muted text-white ml-2"
+                                                        >PG</span
+                                                    >
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row py-4 border-top">
+                            <div class="col-md-3 col-lg-2">
+                                <div class="img-poster">
+                                    <img
+                                        src="./img/movie-7.jpg"
+                                        alt="movie 7"
+                                        class="d-block w-100"
+                                    />
+                                </div>
+                            </div>
+                            <div class="col-md-9 col-lg-10">
+                                <div class="info">
+                                    <span>ACTION, ADVENTURE, FANTASY</span>
+                                    <h1>It's Over</h1>
+                                    <p>
+                                        European mercenaries searching for black
+                                        powder become embroiled in the defense
+                                        of It's over of China against a horde of
+                                        monstrous creatures.
+                                    </p>
+                                    <a href="#">FULL SYNOPSYS ></a>
+                                    <div
+                                        class="time-detail d-flex justify-content-between my-3"
+                                    >
+                                        <div class="row w-100">
+                                            <div class="col-md-8">
+                                                <div class="time">
+                                                    <span
+                                                        ><i
+                                                            class="fa fa-clock"
+                                                        ></i>
+                                                        VIEWING TIMES</span
+                                                    >
+                                                    <span
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</span
+                                                    >
+                                                    <span
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</span
+                                                    >
+                                                    <spa
+                                                        n
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</spa
+                                                    >
+                                                    <spa
+                                                        n
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</spa
+                                                    >
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="duration">
+                                                    <span>105 MINS</span>
+                                                    <span
+                                                        class="rounded-circle bg-strong-muted text-white ml-2"
+                                                        >PG</span
+                                                    >
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row py-4 border-top">
+                            <div class="col-md-3 col-lg-2">
+                                <div class="img-poster">
+                                    <img
+                                        src="./img/movie-1.jpg"
+                                        alt="movie 1"
+                                        class="d-block w-100"
+                                    />
+                                </div>
+                            </div>
+                            <div class="col-md-9 col-lg-10">
+                                <div class="info">
+                                    <span>ACTION, ADVENTURE, FANTASY</span>
+                                    <h1>It's Over</h1>
+                                    <p>
+                                        European mercenaries searching for black
+                                        powder become embroiled in the defense
+                                        of It's over of China against a horde of
+                                        monstrous creatures.
+                                    </p>
+                                    <a href="#">FULL SYNOPSYS ></a>
+                                    <div
+                                        class="time-detail d-flex justify-content-between my-3"
+                                    >
+                                        <div class="row w-100">
+                                            <div class="col-md-8">
+                                                <div class="time">
+                                                    <span
+                                                        ><i
+                                                            class="fa fa-clock"
+                                                        ></i>
+                                                        VIEWING TIMES</span
+                                                    >
+                                                    <span
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</span
+                                                    >
+                                                    <span
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</span
+                                                    >
+                                                    <spa
+                                                        n
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</spa
+                                                    >
+                                                    <spa
+                                                        n
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</spa
+                                                    >
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="duration">
+                                                    <span>105 MINS</span>
+                                                    <span
+                                                        class="rounded-circle bg-strong-muted text-white ml-2"
+                                                        >PG</span
+                                                    >
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row py-4 border-top">
+                            <div class="col-md-3 col-lg-2">
+                                <div class="img-poster">
+                                    <img
+                                        src="./img/movie-9.jpg"
+                                        alt="movie 9"
+                                        class="d-block w-100"
+                                    />
+                                </div>
+                            </div>
+                            <div class="col-md-9 col-lg-10">
+                                <div class="info">
+                                    <span>ACTION, ADVENTURE, FANTASY</span>
+                                    <h1>It's Over</h1>
+                                    <p>
+                                        European mercenaries searching for black
+                                        powder become embroiled in the defense
+                                        of It's over of China against a horde of
+                                        monstrous creatures.
+                                    </p>
+                                    <a href="#">FULL SYNOPSYS ></a>
+                                    <div
+                                        class="time-detail d-flex justify-content-between my-3"
+                                    >
+                                        <div class="row w-100">
+                                            <div class="col-md-8">
+                                                <div class="time">
+                                                    <span
+                                                        ><i
+                                                            class="fa fa-clock"
+                                                        ></i>
+                                                        VIEWING TIMES</span
+                                                    >
+                                                    <span
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</span
+                                                    >
+                                                    <span
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</span
+                                                    >
+                                                    <spa
+                                                        n
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</spa
+                                                    >
+                                                    <spa
+                                                        n
+                                                        class="badge badge-secondary p-2 ml-2 bg-light-muted"
+                                                        >14:45</spa
+                                                    >
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="duration">
+                                                    <span>105 MINS</span>
+                                                    <span
+                                                        class="rounded-circle bg-strong-muted text-white ml-2"
+                                                        >PG</span
+                                                    >
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -873,7 +2645,7 @@
                 </div>
                 <div class="row coming-bottom">
                     <div class="container">
-                        <div class="owl-carousel owl-theme owl-6-items">
+                        <div class="slick-carousel 6-items">
                             <div class="item">
                                 <div
                                     class="d-flex flex-column justify-content-center"
@@ -882,7 +2654,175 @@
                                         <div class="poster">
                                             <img
                                                 src="./img/movie-6.jpg"
-                                                alt="movie 1"
+                                                alt="movie 6"
+                                            />
+                                        </div>
+
+                                        <h1 class="m-0 text-center mt-3">
+                                            Hush
+                                        </h1>
+                                        <p class="text-center">
+                                            <span>07 September, 2017</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div
+                                    class="d-flex flex-column justify-content-center"
+                                >
+                                    <div class="movie-poster">
+                                        <div class="poster">
+                                            <img
+                                                src="./img/movie-2.jpg"
+                                                alt="movie 2"
+                                            />
+                                        </div>
+
+                                        <h1 class="m-0 text-center mt-3">
+                                            Hush
+                                        </h1>
+                                        <p class="text-center">
+                                            <span>07 September, 2017</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div
+                                    class="d-flex flex-column justify-content-center"
+                                >
+                                    <div class="movie-poster">
+                                        <div class="poster">
+                                            <img
+                                                src="./img/movie-3.jpg"
+                                                alt="movie 3"
+                                            />
+                                        </div>
+
+                                        <h1 class="m-0 text-center mt-3">
+                                            Hush
+                                        </h1>
+                                        <p class="text-center">
+                                            <span>07 September, 2017</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div
+                                    class="d-flex flex-column justify-content-center"
+                                >
+                                    <div class="movie-poster">
+                                        <div class="poster">
+                                            <img
+                                                src="./img/movie-4.jpg"
+                                                alt="movie 4"
+                                            />
+                                        </div>
+
+                                        <h1 class="m-0 text-center mt-3">
+                                            Hush
+                                        </h1>
+                                        <p class="text-center">
+                                            <span>07 September, 2017</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div
+                                    class="d-flex flex-column justify-content-center"
+                                >
+                                    <div class="movie-poster">
+                                        <div class="poster">
+                                            <img
+                                                src="./img/movie-5.jpg"
+                                                alt="movie 5"
+                                            />
+                                        </div>
+
+                                        <h1 class="m-0 text-center mt-3">
+                                            Hush
+                                        </h1>
+                                        <p class="text-center">
+                                            <span>07 September, 2017</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div
+                                    class="d-flex flex-column justify-content-center"
+                                >
+                                    <div class="movie-poster">
+                                        <div class="poster">
+                                            <img
+                                                src="./img/movie-7.jpg"
+                                                alt="movie 7"
+                                            />
+                                        </div>
+
+                                        <h1 class="m-0 text-center mt-3">
+                                            Hush
+                                        </h1>
+                                        <p class="text-center">
+                                            <span>07 September, 2017</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div
+                                    class="d-flex flex-column justify-content-center"
+                                >
+                                    <div class="movie-poster">
+                                        <div class="poster">
+                                            <img
+                                                src="./img/movie-8.jpg"
+                                                alt="movie 8"
+                                            />
+                                        </div>
+
+                                        <h1 class="m-0 text-center mt-3">
+                                            Hush
+                                        </h1>
+                                        <p class="text-center">
+                                            <span>07 September, 2017</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div
+                                    class="d-flex flex-column justify-content-center"
+                                >
+                                    <div class="movie-poster">
+                                        <div class="poster">
+                                            <img
+                                                src="./img/movie-9.jpg"
+                                                alt="movie 9"
+                                            />
+                                        </div>
+
+                                        <h1 class="m-0 text-center mt-3">
+                                            Hush
+                                        </h1>
+                                        <p class="text-center">
+                                            <span>07 September, 2017</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div
+                                    class="d-flex flex-column justify-content-center"
+                                >
+                                    <div class="movie-poster">
+                                        <div class="poster">
+                                            <img
+                                                src="./img/movie-11.jpg"
+                                                alt="movie 11"
                                             />
                                         </div>
 
@@ -962,52 +2902,6 @@
                 </div>
             </div>
         </footer>
-
-        <script src="./css/owlcarousel/jquery.min.js"></script>
-        <script src="./css/owlcarousel/owl.carousel.min.js"></script>
-        <script>
-            $(".owl-4-items").owlCarousel({
-                loop: true,
-                margin: 10,
-                nav: true,
-                responsive: {
-                    350: {
-                        items: 1,
-                    },
-                    576: {
-                        items: 2,
-                    },
-                    768: {
-                        items: 3,
-                    },
-                    992: {
-                        items: 4,
-                    },
-                },
-            });
-            $(".owl-6-items").owlCarousel({
-                loop: true,
-                margin: 10,
-                nav: true,
-                responsive: {
-                    350: {
-                        items: 1,
-                    },
-                    576: {
-                        items: 2,
-                    },
-                    768: {
-                        items: 3,
-                    },
-                    992: {
-                        items: 4,
-                    },
-                    1200: {
-                        items: 6,
-                    },
-                },
-            });
-        </script>
         <script
             src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
             integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -1028,5 +2922,95 @@
             integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
             crossorigin="anonymous"
         ></script>
+        <!-- Slick -->
+        <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script src="./slick-1.8.1/slick/slick.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                $(".4-items").slick({
+                    infinite: true,
+                    slidesToShow: 4,
+                    slidesToScroll: 2,
+                    accessibility: true,
+                    responsive: [
+                        {
+                            breakpoint: 1200,
+                            settings: {
+                                slidesToShow: 4,
+                                slidesToScroll: 2,
+                                infinite: true,
+                            },
+                        },
+                        {
+                            breakpoint: 992,
+                            settings: {
+                                slidesToShow: 3,
+                                slidesToScroll: 2,
+                            },
+                        },
+                        {
+                            breakpoint: 768,
+                            settings: {
+                                slidesToShow: 2,
+                                slidesToScroll: 1,
+                            },
+                        },
+                        {
+                            breakpoint: 576,
+                            settings: {
+                                slidesToShow: 1,
+                                slidesToScroll: 1,
+                            },
+                        },
+                    ],
+                });
+                $(".6-items").slick({
+                    infinite: true,
+                    slidesToShow: 4,
+                    slidesToScroll: 2,
+                    accessibility: true,
+                    responsive: [
+                        {
+                            breakpoint: 1440,
+                            settings: {
+                                slidesToShow: 6,
+                                slidesToScroll: 2,
+                                infinite: true,
+                            },
+                        },
+                        {
+                            breakpoint: 1200,
+                            settings: {
+                                slidesToShow: 4,
+                                slidesToScroll: 2,
+                                infinite: true,
+                            },
+                        },
+                        {
+                            breakpoint: 992,
+                            settings: {
+                                slidesToShow: 3,
+                                slidesToScroll: 1,
+                            },
+                        },
+                        {
+                            breakpoint: 768,
+                            settings: {
+                                slidesToShow: 2,
+                                slidesToScroll: 1,
+                            },
+                        },
+                        {
+                            breakpoint: 576,
+                            settings: {
+                                slidesToShow: 1,
+                                slidesToScroll: 1,
+                            },
+                        },
+                    ],
+                });
+            });
+        </script>
     </body>
 </html>

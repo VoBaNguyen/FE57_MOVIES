@@ -89,7 +89,14 @@
                 background: #101010;
             }
             padding: 3.5rem 0;
-            .owl-carousel {
+            .slick-carousel {
+                .item {
+                    margin: 0 0.5rem;
+                    &:focus {
+                        border: none;
+                        outline: none;
+                    }
+                }
                 .movie-poster {
                     position: relative;
                     border-radius: 0.5rem;
@@ -106,6 +113,10 @@
                     .poster {
                         border-radius: 0.75rem;
                         overflow: hidden;
+                        img {
+                            display: block;
+                            width: 100%;
+                        }
                     }
                 }
                 h1 {
@@ -113,6 +124,22 @@
                 }
                 p {
                     color: $muted;
+                }
+                .slick-prev::before {
+                    content: "‹";
+                    font-size: 3rem;
+                    color: $strong-primary;
+                    &:hover {
+                        counter-reset: $primary;
+                    }
+                }
+                .slick-next::before {
+                    content: "›";
+                    font-size: 3rem;
+                    color: $strong-primary;
+                    &:hover {
+                        counter-reset: $primary;
+                    }
                 }
             }
         }

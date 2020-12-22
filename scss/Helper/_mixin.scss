@@ -51,3 +51,14 @@
     justify-content: $justify;
     align-items: $align;
 }
+
+@mixin border-ouline-none {
+    outline: none;
+    border: none;
+}
+
+@mixin animation($name) {
+    animation: $name;
+    animation-duration: 0.8s;
+    animation-timing-function: ease;
+}
