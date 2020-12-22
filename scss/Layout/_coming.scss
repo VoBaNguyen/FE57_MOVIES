@@ -91,7 +91,7 @@
             padding: 3.5rem 0;
             .slick-carousel {
                 .item {
-                    margin: 0 0.5rem;
+                    padding: 0 0.75rem;
                     &:focus {
                         border: none;
                         outline: none;
@@ -132,6 +132,8 @@
                     &:hover {
                         counter-reset: $primary;
                     }
+                    position: relative;
+                    left: 0.75rem;
                 }
                 .slick-next::before {
                     content: "›";
@@ -140,6 +142,8 @@
                     &:hover {
                         counter-reset: $primary;
                     }
+                    position: relative;
+                    right: 0.75rem;
                 }
             }
         }

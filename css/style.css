@@ -295,7 +295,7 @@
 }
 
 .new .container .slick-carousel .item {
-  margin-right: 1rem;
+  padding: 0 0.75rem;
 }
 
 .new .container .slick-carousel .item:focus {
@@ -369,6 +369,8 @@
   content: "‹";
   font-size: 3rem;
   color: #ec7532;
+  position: relative;
+  left: 0.75rem;
 }
 
 .new .container .slick-carousel .slick-prev::before:hover {
@@ -379,6 +381,8 @@
   content: "›";
   font-size: 3rem;
   color: #ec7532;
+  position: relative;
+  right: 0.75rem;
 }
 
 .new .container .slick-carousel .slick-next::before:hover {
@@ -629,7 +633,7 @@
 }
 
 .coming .container .coming-bottom .slick-carousel .item {
-  margin: 0 0.5rem;
+  padding: 0 0.75rem;
 }
 
 .coming .container .coming-bottom .slick-carousel .item:focus {
@@ -682,6 +686,8 @@
   content: "‹";
   font-size: 3rem;
   color: #ec7532;
+  position: relative;
+  left: 0.75rem;
 }
 
 .coming .container .coming-bottom .slick-carousel .slick-prev::before:hover {
@@ -692,6 +698,8 @@
   content: "›";
   font-size: 3rem;
   color: #ec7532;
+  position: relative;
+  right: 0.75rem;
 }
 
 .coming .container .coming-bottom .slick-carousel .slick-next::before:hover {
