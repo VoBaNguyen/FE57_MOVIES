@@ -272,6 +272,10 @@
   }
 }
 
+.new .container {
+  /* RESPONSIVE */
+}
+
 .new .container > h1 {
   font-size: 1.125rem;
   color: #ec7532;
@@ -418,11 +422,11 @@
 }
 
 .schedule .container ul.nav li a:hover::after {
-  height: 100%;
+  width: 100%;
 }
 
 .schedule .container ul.nav li a.active::after {
-  height: 100%;
+  width: 100%;
 }
 
 .schedule .container .tab-content .row .img-poster {
@@ -492,6 +496,10 @@
     background-image: linear-gradient(to top, #fbbd61, #ec7532);
   }
   .schedule .container ul.nav li a:hover::after {
+    width: 0.25rem;
+    height: 100%;
+  }
+  .schedule .container ul.nav li a.active::after {
     width: 0.25rem;
     height: 100%;
   }

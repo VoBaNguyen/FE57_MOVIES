@@ -14,12 +14,12 @@
                     @include transition-ease(0.4s);
                 }
                 &:hover::after {
-                    height: 100%;
+                    width: 100%;
                 }
             }
             a.active {
                 &::after {
-                    height: 100%;
+                    width: 100%;
                 }
             }
         }
@@ -90,6 +90,12 @@
                         @include gradient-primary(top);
                     }
                     &:hover::after {
+                        width: 0.25rem;
+                        height: 100%;
+                    }
+                }
+                a.active {
+                    &::after {
                         width: 0.25rem;
                         height: 100%;
                     }

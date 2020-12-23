@@ -35,7 +35,6 @@
                     position: absolute;
                     top: 0;
                     left: 0;
-
                     a {
                         i {
                             width: 5rem;
@@ -87,5 +86,18 @@
             position: relative;
             right: 0.75rem;
         }
+    }
+    /* RESPONSIVE */
+
+    @media screen and (max-width: 1200px) {
+    }
+
+    @media screen and (max-width: 992px) {
+    }
+
+    @media screen and (max-width: 768px) {
+    }
+
+    @media screen and (max-width: 576px) {
     }
 }
